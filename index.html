@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Translatify | Language Translator</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="translator-container">
+      <h1><span class="trans-color">Trans</span><span class="latify-color">latify</span></h1>
+      <div class="language-selectors">
+        <div class="source-language">
+          <!-- <label for="sourceLanguage">From</label> -->
+          <select id="sourceLanguage"></select>
+        </div>
+        <button id="swapLanguages" title="Swap languages">
+          <i class="fas fa-exchange-alt"></i>
+        </button>
+        <div class="target-language">
+          <!-- <label for="targetLanguage">To</label> -->
+          <select id="targetLanguage"></select>
+        </div>
+      </div>
+      <div class="text-areas">
+        <div class="source-text">
+          <textarea id="inputText" placeholder="Enter text to translate"></textarea>
+        </div>
+        <div class="target-text">
+          <div id="outputText"></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
