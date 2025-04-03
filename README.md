@@ -91,6 +91,12 @@ The application uses the **RapidAPI Text Translator** API. You need an API key t
 Home Page  
 ![Image](https://github.com/user-attachments/assets/a38beaaa-9d73-4923-b44d-75597fce0847)
 
+---
+
+## **video link
+http://127.0.0.1:3000/index.html
+
+---
 
 ## 🛠️ Technologies Used
 - **HTML5** – Structure of the webpage.
