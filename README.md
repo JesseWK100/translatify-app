@@ -98,6 +98,11 @@ http://127.0.0.1:3000/index.html
 
 ---
 
+## link to the video
+https://www.loom.com/share/2c63c53b3a92468683bfbbeb33d55d06?sid=b9bdd574-9bf0-4d06-8ba7-be4fd223295f
+
+---
+
 ## 🛠️ Technologies Used
 - **HTML5** – Structure of the webpage.
 - **CSS3** – Styling and responsive design.
